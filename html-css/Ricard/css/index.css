@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+a:link,
+a:visited {
+    background-color: gainsboro;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: beige;
+}
+
+#server-list {
+    width: 68%;
+    float: left;
+    padding: 1%;
+}
+
+#server-form {
+    width: 28%;
+    float: left;
+    padding: 1%;
+}
+
+#server-form {
+    text-align: center;
+}
+
+#server-form input {
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#server-form input:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+#server-form button {
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(120, 120, 204);
+    color: #fff;
+    border-color: #fff;
+    transition: transform .5s;
+}
+
+#server-form button:hover {
+    background-color: rgb(95, 95, 201);
+    transform: scale(1.1);
+}
+
+#server-list table,
+td,
+th {
+    border: 1px solid;
+    padding: 2px;
+}
+
+#server-list table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 5px;
+}
+
+#server-list button {
+    margin-left: 2px;
+    font-family: inherit;
+}
+
+#server-list tr:hover {
+    background-color: beige;
+}
+
+#server-list tr:nth-child(1) {
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+#server-list td:nth-child(1) {
+    background-color: gainsboro;
+    font-weight: bold;
+}

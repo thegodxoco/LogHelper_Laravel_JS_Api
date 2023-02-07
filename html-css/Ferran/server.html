@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/server.css">
+    <title>Server</title>
+</head>
+
+<body>
+    <div id="show">
+
+    </div>
+    <div id="server-info">
+        <h1>Server</h1>
+        <form>
+        <table id="server-table">
+            <tr>
+                <td>ID</td>
+                <td id="server-id"></td>
+            </tr>
+            <tr>
+                <td>IPv4</td>
+                <td ><input id="server-ipv4" type="text" pattern='\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}\b'> </td>
+            </tr>
+            <tr>
+                <td>IPv6</td>
+                <td ><input id="server-ipv6" type="text"> </td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td ><input id="server-location" type="text"> </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td ><input id="server-description" type="text"> </td>
+            </tr>
+        </table>
+    </form>
+        <button onclick="updateServer()">Editar</button>
+    </div>
+    <div id="log-form">
+        <h1>Create Log</h1>
+        <form id="createLog" class="form" >
+            <!--<div>
+                <label for="timestamp">Timestamp</label>
+                <input type="text" id="timestamp" name="timestamp">
+            </div>-->
+            <div>
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description">
+            </div>
+            <button type="button" onclick="createLog()">Create a new Log for this server</button>
+        </form>
+    </div>
+    <div id="server-logs">
+        <h1>Logs</h1>
+        <table id="logs-table">
+            <tr>
+                <td>ID</td>
+                <td>Timestamp</td>
+                <td>Description</td>
+                <td>Options</td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/server.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#log-info {
+    width: 50%;
+    padding: 10px;
+}
+#log-info input{
+    border:0;
+    font-size: 15px;
+    width: 99%;
+    height: 100%;
+}
+#log-info input:hover {
+    background-color: beige;
+}
+#log-info input:focus{
+    outline: none;
+    color: rgb(1, 1, 150);
+}
+
+#log-info table, td, tr {
+    border: 1px solid;
+    padding: 2px;
+}
+
+#log-info table {
+    border-collapse: collapse;
+    width: 80%;
+    border-spacing: 5px;
+}
+
+#log-info td:nth-child(1) {
+    background-color: gainsboro;
+    font-weight: bold;
+    width: 20%;
+}
+
+#log-info tr:hover {
+    background-color: beige;
+}
+.good{
+    background-color: rgb(151, 187, 96);
+    padding: 10px;
+    visibility: hidden;
+    padding:10px;
+    border: 1px solid #000;
+    transition: visibility 2s;
+}
+.error{
+    background-color: rgb(236, 122, 122);
+    padding: 10px;
+    visibility: hidden;
+    border: 1px solid #000;
+    transition: visibility 2s;
+}

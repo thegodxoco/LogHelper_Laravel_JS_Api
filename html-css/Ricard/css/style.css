@@ -1,0 +1,46 @@
+#server-list {
+    width: 50%;
+    float: left;
+}
+
+#server-form {
+    width: 50%;
+    float: left;
+}
+
+#server-form {
+    text-align: center;
+}
+
+#server-form input {
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#server-form input:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+#server-form button {
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(120, 120, 204);
+    color: #fff;
+    border-color: #fff;
+    transition: transform .5s;
+}
+
+#server-form button:hover {
+    background-color: rgb(95, 95, 201);
+    transform: scale(1.1);
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+}

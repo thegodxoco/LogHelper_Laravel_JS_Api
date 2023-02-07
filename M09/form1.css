@@ -1,0 +1,26 @@
+.form{
+    text-align: center;
+    padding: 10px;
+}
+.form input{
+    border-radius: 30px;
+    padding: 5px;
+    margin:5px;
+}
+.form input:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.form button{
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(120, 120, 204);
+    color: #fff;
+    border-color: #fff;
+    transition: transform .5s;
+}
+.form button:hover{
+    background-color: rgb(95, 95, 201);
+    transform: scale(1.1);
+}

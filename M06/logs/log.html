@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+    <script src="log.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="show">
+
+    </div>
+    <div id= "edit">
+        <form id="updateLog" class="form" >
+            <div>
+                <label for="timestamp" >timestamp</label>
+                <input type="text" id="timestamp" name="timestamp">
+            </div>
+            <div>
+                <label for="description" >description</label>
+                <input type="text" id="description" name="description" >
+            </div>
+            <div>
+                <label for="server_id" >server_id</label>
+                <input type="text" id="server_id" name="server_id" >
+            </div>
+            <button type="button" onclick="updateLog()">canviar log</button>
+            </form> 
+    </div>
+</body>
+</html>

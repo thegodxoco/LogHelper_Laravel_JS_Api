@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>LogHelperWS</title>
+</head>
+
+<body>
+    <div id="show">
+
+    </div>
+    <div id="server-list">
+        <h2>Server List</h2>
+        <table id="server-table">
+            <tr>
+                <td>ID</td>
+                <td>IPv4</td>
+                <td>IPv6</td>
+                <td>Location</td>
+                <td>Description</td>
+                <td>Options</td>
+            </tr>
+        </table>
+    </div>
+    <div id="server-form">
+        <h2>Create Server</h2>
+        <!-- <form id="createServer" class="form" method="POST" onsubmit="createServer()"> -->
+        <form id="createServer" class="form" method="POST">
+            <div>
+                <label for="ipv4">Ipv4</label>
+                <input type="text" id="ipv4" name="ipv4">
+            </div>
+            <div>
+                <label for="ipv6">Ipv6</label>
+                <input type="text" id="ipv6" name="ipv6">
+            </div>
+            <div>
+                <label for="location">Location</label>  
+                <input type="text" id="location" name="location">
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description">
+            </div>
+            <!-- <button type="submit">Create a new Server</button> -->
+            <button type="button" onclick="createServer()">Create a new Server</button>
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
